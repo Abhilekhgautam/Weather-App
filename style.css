@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+}
+body{
+    background-color:#8b8b7c;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    width: 85%;
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+img{
+    position: relative;
+    left:550px;
+    bottom: 40px;
+}
+img:hover{
+    cursor: pointer;
+}
+input{
+    border-radius: 12px;
+    padding: 18px 20px;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+}
+input:focus{
+    border: none;
+    outline-style: none;
+}
+.fetchedData{
+    width:50%;
+    background-color: white;
+}
+.imageStatus{
+    position: relative;
+    top:40px;
+    right:550px
+}
+/* for various screen Width*/
+@media(max-width:410px){
+    img{
+        position: relative;
+        left:145px;
+        bottom: 40px;
+    }
+    .imageStatus{
+        position: relative;
+        top:40px;
+        right:140px;
+    }
+}
+@media(min-width:406px)and (max-width:500px){
+    img{
+        position: relative;
+        left:180px;
+        bottom: 40px;
+    }
+    .imageStatus{
+        position: relative;
+        top:40px;
+        right:190px;
+    }
+}
+@media(min-width:501px)and (max-width:580px){
+    img{
+        position: relative;
+        left:210px;
+        bottom: 40px;
+    }
+    .imageStatus{
+        position: relative;
+        top:40px;
+        right:220px;
+    }
+}
+@media(min-width:581px)and (max-width:650px){
+    img{
+        position: relative;
+        left:228px;
+        bottom: 40px;
+    }
+    .imageStatus{
+        position: relative;
+        top:40px;
+        right:220px;
+    }
+}
+@media(min-width:651px)and (max-width:700px){
+    img{
+        position: relative;
+        left:240px;
+        bottom: 40px;
+    }
+    .imageStatus{
+        position: relative;
+        top:40px;
+        right:250px;
+    }
+}
+@media(min-width:701px)and (max-width:800px){
+    img{
+        position: relative;
+        left:265px;
+        bottom: 40px;
+    }
+    .imageStatus{
+        position: relative;
+        top:40px;
+        right:280px;
+    }
+}
+@media(min-width:801px)and (max-width:1000px){
+    img{
+        position: relative;
+        left:300px;
+        bottom: 40px;
+    }
+    .imageStatus{
+        position: relative;
+        top:40px;
+        right:300px;
+    }
+}
+@media(min-width:1001px)and (max-width:1100px){
+    img{
+        position: relative;
+        left:380px;
+        bottom: 40px;
+    }
+    .imageStatus{
+        position: relative;
+        top:40px;
+        right:390px;
+    }
+}
+@media(min-width:1100px)and (max-width:1200px){
+    img{
+        position: relative;
+        left:420px;
+        bottom: 40px;
+    }
+    .imageStatus{
+        position: relative;
+        top:40px;
+        right:420px;
+    }
+}
+@media(min-width:1201px)and (max-width:1300px){
+    img{
+        position: relative;
+        left:440px;
+        bottom: 40px;
+    }
+    .imageStatus{
+        position: relative;
+        top:40px;
+        right:440px;
+    }
+}
