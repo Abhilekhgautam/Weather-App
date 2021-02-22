@@ -2,8 +2,11 @@
     margin: 0;
 }
 body{
-    background-color:#8b8b7c;
+    background-image: url('./weather.jpg');
     font-family: 'Titillium Web', sans-serif;
+    background-size: cover;
+    overflow: hidden;
+
 }
 .container{
     width: 80%;
@@ -38,13 +41,20 @@ input:focus{
     outline-style: none;
 }
 .fetchedData{
-    width:50%;
+    width:auto;
     background-color: white;
+
 }
 .imageStatus{
     position: relative;
     top:40px;
     right:550px
+}
+a{
+    color: cyan;
+}
+a:link{
+    color: cyan;
 }
 /* for various screen Width*/
 @media(max-width:410px){
